@@ -10,7 +10,6 @@ router = APIRouter(
     tags=['Список тегов:']
 )
 
-
 @router.post("")
 async def add_task(
     task: Annotated[STaskAdd, Depends()],
