@@ -14,7 +14,7 @@ async def lifespan(app: FastAPI):
     print('Выключение')
     
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(lifespan=lifespan) # uvicorn main:app --reload
 app.include_router(tasks_router)
 
 
