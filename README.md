@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FastAPI Tasks - Трекер задач
 
 Простое и эффективное приложение для управления задачами, построенное на FastAPI с использованием асинхронной БД SQLite.
@@ -184,3 +185,7 @@ print(response.json())
 ---
 
 © 2026 FastAPI Tasks Project
+=======
+# fastapi_tasks
+Трекер задач
+>>>>>>> ded2a7b92a80268d0e726ca77ed03f77ded05d3e
